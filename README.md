@@ -8,6 +8,7 @@ Deploying a web application inspired by "The 50 Best Fantasy Manhwa You Must Rea
 5. Deploy the application
 
 Step 1: Create the web application
+
 A basic Express.js (you can find the code in this repository) application that serves a list of manhwa titles, genres, and descriptions. The front-end is a simple HTML page with JavaScript that fetches the data from the server and displays it.
 
 
