@@ -11,6 +11,7 @@ Step 1: Create the web application
 A basic Express.js (you can find the code in this repository) application that serves a list of manhwa titles, genres, and descriptions. The front-end is a simple HTML page with JavaScript that fetches the data from the server and displays it.
 
 Step 2: Set up AWS infrastructure
+
 a. EC2 instance:
 
 Launch an EC2 instance (e.g., t2.micro for a small app)
