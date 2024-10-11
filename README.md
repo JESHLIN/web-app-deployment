@@ -115,8 +115,11 @@ Start the application with node server.js
 Set up a process manager like PM2 to keep your application running
 
 (Find the script in this repository - deploy.sh)
+
 To use this script:
 
 Save it as deploy.sh
+
 Make it executable with chmod +x deploy.sh
+
 Run it on your EC2 instance with ./deploy.sh
