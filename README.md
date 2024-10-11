@@ -10,6 +10,7 @@ Deploying a web application inspired by "The 50 Best Fantasy Manhwa You Must Rea
 Step 1: Create the web application
 A basic Express.js (you can find the code in this repository) application that serves a list of manhwa titles, genres, and descriptions. The front-end is a simple HTML page with JavaScript that fetches the data from the server and displays it.
 
+
 Step 2: Set up AWS infrastructure
 
 a. EC2 instance:
@@ -31,6 +32,7 @@ c. RDS for the database:
 Create an RDS instance (e.g., Amazon Aurora or MySQL)
 
 Configure security group to allow inbound traffic from your EC2 instance
+
 
 Step 3: Configure auto-scaling
 
@@ -75,6 +77,7 @@ Auto-scaling triggers:
 The application will scale out (add instances) when the average CPU utilization across all instances exceeds 70% for a sustained period.
 It will scale in (remove instances) when the average CPU utilization drops below 70% for a sustained period.
 
+
 Step 4: Implement security measures
 
 a. Enable HTTPS:
@@ -94,6 +97,7 @@ Update the EC2 security group to allow inbound traffic only on necessary ports:
 22 (SSH) from your IP address only
 
 3306 (MySQL/Aurora) from the EC2 security group to the RDS security group
+
 
 Step 5: Deploy the application
 
